@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lexend Dexa';
+    /* color: #333; */
+    font-size: 0.95em;
+  	background-image: url("bg.jpg");
+    background-color: #473ecc;
+    /* background-color: white; */
+    background-repeat: no-repeat;
+  	background-size: cover;
+}
+#gameCanvas{
+  padding-top: 5em;
+}
+#button1{
+  top: 7em;
+  right: 25em;
+  color:black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:'Pangolin',cursive;
+
+}
+#button1:hover{
+  background-color: black;
+  color: green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+:root {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;    
+}
+
+/* body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ */
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    margin-top: 20em;
+    background-color: rgb(0,0,0.6,0.5);
+    margin-bottom: 20em;
+
+}
+#buttON { 
+    margin: auto;
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    border: none; 
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900; font-size: 2em;
+    text-shadow: 0 3px 1px rgba(122,17,8,.8);
+    box-shadow: 0 13px 0 rgb(139,0,0);
+    background: rgb(240,10,0);
+    outline: none; cursor: pointer;
+    transition: .4s;
+    
+} 
+
+#buttON:active {
+    padding-top: 3px;
+    background-color: rgb(160,5,0);
+    box-shadow: 0 4px 0 rgb(183,0,0),
+        0 8px 6px rgba(0,0,0,.45);
+    transform: translateY(5px);
+}
